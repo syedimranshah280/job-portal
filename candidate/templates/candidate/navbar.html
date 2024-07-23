@@ -1,0 +1,41 @@
+
+<style>
+    .sidebar {
+  background-color: #34495e;
+  color: white;
+  width: 220px;
+  padding: 20px;
+  height: 100%;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar a {
+  display: block;
+  color: white;
+  text-decoration: none;
+
+  {% comment %} padding: 10px 0; {% endcomment %}
+}
+.logout-button {
+  background: transparent;
+  color: white;
+  border:none;
+  font-size: 14px;
+}
+.logout-button {
+  background: transparent;
+  border:none;
+}
+</style>
+<nav class="sidebar">
+    <ul>
+      <li><a href="{% url 'profile' %}"><i class="fas fa-user"></i> Profile</a></li> 
+      <li><a href="{% url 'mylist' %}"><i class="fas fa-list"></i> My Jobs</a></li>
+      <!-- <li><a href="{% url 'postjob' %}"><i class="fas fa-plus-circle"></i> New Job Post</a></li> -->
+    </ul>
+    <button class="logout-button"><a href="{% url 'logout' %}">Logout</a></button>
+  </nav>

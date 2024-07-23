@@ -1,0 +1,16 @@
+{
+	"questions": [
+		{
+			"question": "What is the company's mission?",
+			"answer": "Our mission is to provide innovative solutions to our customers' problems."
+		},
+		{
+			"question": "How do I apply for a job?",
+			"answer": "You can apply for a job by visiting our careers page and submitting your application."
+		},
+		{
+			"question": "Can I update my profile information?",
+			"answer": "Yes, you can update your profile information by logging into your account and navigating to the profile section."
+		}
+	]
+}
